@@ -1,0 +1,26 @@
+{
+  "name": "fssan",
+  "version": "1.0.0",
+  "description": "A Filesystem cleanup CL",
+  "main": "fssan.js",
+  "scripts": {
+    "test": "fssan à côntènt to clean"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/GuillaumeIsabelle/fssan.git"
+  },
+  "bin": {
+    "ginol": "fssan.js"
+  },
+  "keywords": [
+    "fs",
+    "clean"
+  ],
+  "author": "Guillaume Descoteaux-Isabelle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GuillaumeIsabelle/fssan/issues"
+  },
+  "homepage": "https://github.com/GuillaumeIsabelle/fssan#readme"
+}
