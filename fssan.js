@@ -35,4 +35,13 @@ if (myArgs[0] == null) {
     // -> "~.sshauthorized_keys"
     console.log(filename);
 
+    if (myArgs[1] && (myArgs[1] == "--clipboard" || myArgs[1] == "-c" || myArgs[1] == "--c")) {
+        console.log("Setting result to Clipboard");
+        const clipboardy = require('clipboardy');
+
+        // Copy
+        clipboardy.writeSync(filename);
+
+    }
+
 }
