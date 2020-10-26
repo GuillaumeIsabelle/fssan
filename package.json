@@ -1,6 +1,6 @@
 {
   "name": "fssan",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A Filesystem cleanup CL",
   "main": "fssan.js",
   "scripts": {
@@ -24,6 +24,6 @@
   },
   "homepage": "https://github.com/GuillaumeIsabelle/fssan#readme",
   "dependencies": {
-    "gix-sanitize-filename": "^1.6.9"
+    "gix-sanitize-filename": "^1.6.10"
   }
 }
